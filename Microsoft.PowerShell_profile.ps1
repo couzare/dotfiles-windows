@@ -1,3 +1,4 @@
+# Note this profile is for Windows Powershell version 6 and above.
 New-Alias k kubectl
 Remove-Alias h
 New-Alias h helm
