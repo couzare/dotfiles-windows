@@ -1,0 +1,98 @@
+{
+	"$help": "https://aka.ms/terminal-documentation",
+	"$schema": "https://aka.ms/terminal-profiles-schema",
+	"actions": [],
+	"defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+	"firstWindowPreference": "defaultProfile",
+	"profiles": {
+		"defaults": {
+			"colorScheme": "xcad",
+			"cursorShape": "filledBox",
+			"elevate": true,
+			"font": {
+				"face": "Hack Nerd Font",
+				"size": 14
+			},
+			"historySize": 12000,
+			"intenseTextStyle": "bright",
+			"opacity": 95,
+			"padding": "8",
+			"scrollbarState": "visible",
+			"useAcrylic": false
+		},
+		"list": [
+			{
+				"guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+				"icon": "%userprofile%\\WindowsTerminalIcons\\cmd.png",
+				"name": "Commandline"
+			},
+			{
+				"guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+				"hidden": true,
+				"icon": "%userprofile%\\WindowsTerminalIcons\\azure.png",
+				"name": "Azure Cloud Shell",
+				"source": "Windows.Terminal.Azure"
+			},
+			{
+				"elevate": true,
+				"guid": "{8b1f5ff0-7b83-43f0-8a7a-bc838c4273a1}",
+				"hidden": false,
+				"name": "defaultProfile"
+			},
+			{
+				"commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+				"elevate": true,
+				"guid": "{6d577362-39fa-4ce2-9f7c-fc20f48f21ca}",
+				"hidden": false,
+				"name": "Powershell 5.1"
+			},
+			{
+				"guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+				"hidden": false,
+				"name": "PowerShell",
+				"source": "Windows.Terminal.PowershellCore"
+			},
+			{
+				"guid": "{a3a2e83a-884a-5379-baa8-16f193a13b21}",
+				"hidden": false,
+				"name": "PowerShell 7 Preview",
+				"source": "Windows.Terminal.PowershellCore"
+			},
+			{
+				"commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
+				"elevate": true,
+				"guid": "{00da513a-02c8-4e3a-8e65-388384084565}",
+				"hidden": false,
+				"name": "Powershell 7"
+			}
+		]
+	},
+	"schemes": [
+		{
+			"background": "#1A1A1A",
+			"black": "#121212",
+			"blue": "#2B4FFF",
+			"brightBlack": "#666666",
+			"brightBlue": "#5C78FF",
+			"brightCyan": "#5AC8FF",
+			"brightGreen": "#905AFF",
+			"brightPurple": "#5EA2FF",
+			"brightRed": "#BA5AFF",
+			"brightWhite": "#FFFFFF",
+			"brightYellow": "#685AFF",
+			"cursorColor": "#FFFFFF",
+			"cyan": "#28B9FF",
+			"foreground": "#F1F1F1",
+			"green": "#7129FF",
+			"name": "xcad",
+			"purple": "#2883FF",
+			"red": "#A52AFF",
+			"selectionBackground": "#FFFFFF",
+			"white": "#F1F1F1",
+			"yellow": "#3D2AFF"
+		}
+	],
+	"showTabsInTitlebar": true,
+	"tabSwitcherMode": "inOrder",
+	"useAcrylicInTabRow": true
+}
