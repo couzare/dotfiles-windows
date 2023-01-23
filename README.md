@@ -1,5 +1,5 @@
 # dotfiles-windows
-My important files that I deem sharable, example: profiles
+Profiles
 
 
 ## Installation Guide for Powershell Profile
